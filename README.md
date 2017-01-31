@@ -10,7 +10,7 @@ The code highligther color scheme is an adapation of the [Intellij version of So
 
 All is on the "solarized-jekyll" folder. 
 
-Copy this folder and use it like a classic jekyl project.
+Copy this folder and use it like a classic jekyll project.
 
 Don't forget to modify your _config.yml
 
