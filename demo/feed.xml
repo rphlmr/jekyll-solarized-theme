@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://www.example.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="http://www.example.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.example.com/" rel="alternate" type="text/html" /><updated>2017-02-01T00:06:15+01:00</updated><id>http://www.example.com//</id><title type="html">Solarized &amp;lt;3</title><subtitle>A lovely theme
+</subtitle><entry><title type="html">Readme first :)</title><link href="http://www.example.com/helloWorld" rel="alternate" type="text/html" title="Readme first :)" /><published>1970-01-01T00:00:00+01:00</published><updated>1970-01-01T00:00:00+01:00</updated><id>http://www.example.com/readme</id><content type="html" xml:base="http://www.example.com/helloWorld">&lt;h1 id=&quot;thank-you&quot;&gt;Thank You&lt;/h1&gt;
+
+&lt;p&gt;This is a custom adaptation of &lt;a href=&quot;http://ethanschoonover.com/solarized&quot; target=&quot;_blank&quot;&gt;Solarized theme&lt;/a&gt; based on the Jekyll Minimal theme.&lt;/p&gt;
+
+&lt;p&gt;The code highligther color scheme is an adapation of the &lt;a href=&quot;https://github.com/jkaving/intellij-colors-solarized&quot; target=&quot;_blank&quot;&gt;Intellij version of Solarized&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you want to modify some things, go on the “assets” folder and edit main.scss.
+For more modifications, this is on the “_sass” folder.&lt;/p&gt;
+
+&lt;p&gt;Your are on the default dark version. You can switch to the light version by editing de $theme variable in main.scss.&lt;/p&gt;
+
+&lt;div class=&quot;language-scss highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;//Line 9
+&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$theme&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;light&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;em&gt;There is maybe (for sure) some useless css code. It comes from the base theme&lt;/em&gt;&lt;/p&gt;</content><summary type="html">Thank You
+
+This is a custom adaptation of Solarized theme based on the Jekyll Minimal theme.
+
+The code highligther color scheme is an adapation of the Intellij version of Solarized.
+
+If you want to modify some things, go on the “assets” folder and edit main.scss.
+For more modifications, this is on the “_sass” folder.
+
+Your are on the default dark version. You can switch to the light version by editing de $theme variable in main.scss.
+
+//Line 9
+$theme: light;
+
+
+
+There is maybe (for sure) some useless css code. It comes from the base theme</summary></entry></feed>
