@@ -1,0 +1,18 @@
+<header class="site-header" role="banner">
+
+  <div class="wrapper">
+    <a class="site-title" href="{{ "/" | relative_url}}">{{ site.title }}</a>
+    <br />
+    {% if site.github_username %}
+      {% include icon-github.html %}
+    {% endif %}
+    {% if site.twitter_username %}
+      {% include icon-twitter.html %}
+    {% endif %}
+    {% if site.linkedin_username %}
+      {% include icon-linkedin.html %}
+    {% endif %}
+
+  </div>
+
+</header>

@@ -1,0 +1,76 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+/*
+ * Set "light" or nothing x) if you love Solarized light version
+*/
+$theme: dark;
+
+// Solarized color reference
+
+$base03:    #002b36; // background color on dark theme
+$base02:    #073642;
+$base01:    #586e75;
+$base00:    #657b83; // text color on light theme
+$base0:     #839496; // text color on dark theme
+$base1:     #93a1a1;
+$base2:     #eee8d5;
+$base3:     #fdf6e3; // background color on light theme
+$yellow:    #b58900;
+$orange:    #cb4b16;
+$red:       #dc322f;
+$magenta:   #d33682;
+$violet:    #6c71c4;
+$blue:      #268bd2;
+$cyan:      #2aa198;
+$green:     #859900;
+
+// Our variables
+$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-size:   18px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       $base00;
+$background-color: $base3;
+$code-background:  $base3;
+$code-def-color:   $base00;
+$brand-color:      $green;
+$pre-border-color: $base2;
+
+@if $theme == dark {
+    $text-color:       $base0;
+    $background-color: $base03;
+    $code-background:  $base03;
+    $code-def-color:   $base0;
+    $brand-color:      $green;
+    $pre-border-color: $base02;
+}
+
+$grey-color:       $base01;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+// Import partials from minima theme.
+@import
+  "minima/base",
+  "minima/layout",
+  "minima/syntax-highlighting"
+;
