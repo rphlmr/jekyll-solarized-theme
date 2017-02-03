@@ -1,5 +1,9 @@
 # Solarized Theme for Jekyll (v3)
 
+**Work In Prgress**
+I'm reworking the scss. I find an issue on the solarized-light highligther color scheme.
+I'll remove this warning when the issue is done.
+
 **DEMO** : https://rphlmr.github.io/jekyll-solarized-theme/
 
 This is a custom adaptation of [Solarized theme](http://ethanschoonover.com/solarized) based on the Jekyll Minimal theme.
