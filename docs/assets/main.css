@@ -1,8 +1,5 @@
-/*
- * Set "light" or nothing x) if you love Solarized light version
-*/
 html {
-  overflow-y: scroll; }
+  overflow-y: auto; }
 
 /**
  * Reset some basic elements
@@ -336,6 +333,7 @@ pre {
 
 /**
  * Syntax highlighting styles
+ * By default they are for the dark color scheme
  */
 .highlight {
   background: #002b36;
@@ -547,3 +545,13 @@ pre {
     color: #268bd2; }
   .highlight .il {
     color: #2aa198; }
+
+/**
+* Syntax highlighting styles - specific
+*/
+.language-php {
+  /* Comment.Single */ }
+  .language-php .c1 {
+    color: #586e75; }
+  .language-php .nb {
+    color: #839496; }

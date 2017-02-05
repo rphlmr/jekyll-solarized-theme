@@ -6,9 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Solarized &lt;3  - Highlighting demo - Light</title>
+  <title>Solarized &lt;3  - Highlighting demo</title>
   <meta name="description" content="">
-  <link rel="stylesheet" href="/jekyll-solarized-theme/assets/solarized-light.css">
+  <link rel="stylesheet" href="/jekyll-solarized-theme/assets/main.css">
   <link rel="canonical" href="http://localhost:4000/jekyll-solarized-theme/highlighting/">
   </head>
 
@@ -46,8 +46,8 @@
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">Highlighting demo - Light</h1>
-    <p class="post-meta">Last update : 03-02-2017</p>
+    <h1 class="post-title" itemprop="name headline">Highlighting demo</h1>
+    <p class="post-meta">Last update : </p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
@@ -60,98 +60,50 @@
 
 <h2 id="html">HTML</h2>
 
-<div class="language-html highlighter-rouge"><pre class="highlight"><code>
-<span class="cp">&lt;!doctype html&gt;</span>
+<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="cp">&lt;!doctype html&gt;</span>
 <span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"fr"</span><span class="nt">&gt;</span>
 <span class="nt">&lt;head&gt;</span>
   <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"utf-8"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;title&gt;</span>Titre de la page<span class="nt">&lt;/title&gt;</span>
+  <span class="nt">&lt;title&gt;</span>Title<span class="nt">&lt;/title&gt;</span>
   <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"style.css"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"script.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
 <span class="nt">&lt;/head&gt;</span>
 <span class="nt">&lt;body&gt;</span>
-  ...
-  <span class="c">&lt;!-- Le reste du contenu --&gt;</span>
-  ...
+  <span class="c">&lt;!-- Content --&gt;</span>
 <span class="nt">&lt;/body&gt;</span>
 <span class="nt">&lt;/html&gt;</span>
-
 </code></pre>
 </div>
 
 <h2 id="css">CSS</h2>
 
-<div class="language-css highlighter-rouge"><pre class="highlight"><code>
-<span class="c">/*
- * Set "light" or nothing x) if you love Solarized light version
+<div class="language-css highlighter-rouge"><pre class="highlight"><code><span class="c">/*
+ * This is a block comment
 */</span>
 <span class="nt">html</span> <span class="p">{</span>
-  <span class="nl">overflow-y</span><span class="p">:</span> <span class="nb">scroll</span><span class="p">;</span> <span class="p">}</span>
-
-<span class="c">/**
- * Reset some basic elements
- */</span>
-<span class="nt">body</span><span class="o">,</span> <span class="nt">h1</span><span class="o">,</span> <span class="nt">h2</span><span class="o">,</span> <span class="nt">h3</span><span class="o">,</span> <span class="nt">h4</span><span class="o">,</span> <span class="nt">h5</span><span class="o">,</span> <span class="nt">h6</span><span class="o">,</span>
-<span class="nt">p</span><span class="o">,</span> <span class="nt">blockquote</span><span class="o">,</span> <span class="nt">pre</span><span class="o">,</span> <span class="nt">hr</span><span class="o">,</span>
-<span class="nt">dl</span><span class="o">,</span> <span class="nt">dd</span><span class="o">,</span> <span class="nt">ol</span><span class="o">,</span> <span class="nt">ul</span><span class="o">,</span> <span class="nt">figure</span> <span class="p">{</span>
-  <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span><span class="p">;</span>
-  <span class="nl">padding</span><span class="p">:</span> <span class="m">0</span><span class="p">;</span> <span class="p">}</span>
-
+  <span class="nl">overflow-y</span><span class="p">:</span> <span class="nb">scroll</span><span class="p">;</span> 
+<span class="p">}</span>
 </code></pre>
 </div>
 
 <h2 id="php">PHP</h2>
 
-<div class="language-php highlighter-rouge"><pre class="highlight"><code>
-<span class="cp">&lt;?php</span>
-<span class="sd">/**
- * Created by IntelliJ IDEA.
- * User: Raphael
- * Date: 31/01/2017
- * Time: 20:28
- */</span>
-
-<span class="k">include</span><span class="p">(</span><span class="s2">"config.php"</span><span class="p">);</span>
+<div class="language-php highlighter-rouge"><pre class="highlight"><code><span class="cp">&lt;?php</span>
+<span class="c1">// PHP
+</span><span class="k">include</span><span class="p">(</span><span class="s2">"config.php"</span><span class="p">);</span>
 <span class="nb">session_start</span><span class="p">();</span>
-<span class="k">if</span><span class="p">(</span><span class="nv">$_SERVER</span><span class="p">[</span><span class="s2">"REQUEST_METHOD"</span><span class="p">]</span> <span class="o">==</span> <span class="s2">"POST"</span><span class="p">)</span>
-<span class="p">{</span>
-<span class="c1">// username and password sent from Form
-</span>    <span class="nv">$myusername</span><span class="o">=</span><span class="nb">addslashes</span><span class="p">(</span><span class="nv">$_POST</span><span class="p">[</span><span class="s1">'username'</span><span class="p">]);</span>
-    <span class="nv">$mypassword</span><span class="o">=</span><span class="nb">addslashes</span><span class="p">(</span><span class="nv">$_POST</span><span class="p">[</span><span class="s1">'password'</span><span class="p">]);</span>
-
-    <span class="nv">$sql</span><span class="o">=</span><span class="s2">"SELECT id FROM admin WHERE username='</span><span class="nv">$myusername</span><span class="s2">' and passcode='</span><span class="nv">$mypassword</span><span class="s2">'"</span><span class="p">;</span>
-    <span class="nv">$result</span><span class="o">=</span><span class="nb">mysql_query</span><span class="p">(</span><span class="nv">$sql</span><span class="p">);</span>
-    <span class="nv">$row</span><span class="o">=</span><span class="nb">mysql_fetch_array</span><span class="p">(</span><span class="nv">$result</span><span class="p">);</span>
-    <span class="nv">$active</span><span class="o">=</span><span class="nv">$row</span><span class="p">[</span><span class="s1">'active'</span><span class="p">];</span>
-    <span class="nv">$count</span><span class="o">=</span><span class="nb">mysql_num_rows</span><span class="p">(</span><span class="nv">$result</span><span class="p">);</span>
-
-
-<span class="c1">// If result matched $myusername and $mypassword, table row must be 1 row
-</span>    <span class="k">if</span><span class="p">(</span><span class="nv">$count</span><span class="o">==</span><span class="mi">1</span><span class="p">)</span>
-    <span class="p">{</span>
-        <span class="nb">session_register</span><span class="p">(</span><span class="s2">"myusername"</span><span class="p">);</span>
-        <span class="nv">$_SESSION</span><span class="p">[</span><span class="s1">'login_user'</span><span class="p">]</span><span class="o">=</span><span class="nv">$myusername</span><span class="p">;</span>
-
-        <span class="nb">header</span><span class="p">(</span><span class="s2">"location: welcome.php"</span><span class="p">);</span>
-    <span class="p">}</span>
-    <span class="k">else</span>
-    <span class="p">{</span>
-        <span class="nv">$error</span><span class="o">=</span><span class="s2">"Your Login Name or Password is invalid"</span><span class="p">;</span>
-    <span class="p">}</span>
-<span class="p">}</span>
+<span class="nv">$myusername</span><span class="o">=</span><span class="nb">addslashes</span><span class="p">(</span><span class="nv">$_POST</span><span class="p">[</span><span class="s1">'username'</span><span class="p">]);</span>
 <span class="cp">?&gt;</span>
-
 </code></pre>
 </div>
 
 <h2 id="java">Java</h2>
 
-<div class="language-java highlighter-rouge"><pre class="highlight"><code>
-<span class="kn">import</span> <span class="nn">java.util.Map</span><span class="o">;</span>
+<div class="language-java highlighter-rouge"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">java.util.Map</span><span class="o">;</span>
 <span class="kn">import</span> <span class="nn">java.util.TreeSet</span><span class="o">;</span>
 
 <span class="cm">/**
- * Created by rphlmr on 30/01/2017.
+ * GetEnv
  */</span>
 <span class="kd">public</span> <span class="kd">class</span> <span class="nc">GetEnv</span> <span class="o">{</span>
     <span class="cm">/**
@@ -170,7 +122,6 @@
         <span class="o">}</span>
     <span class="o">}</span>
 <span class="o">}</span>
-
 </code></pre>
 </div>
 

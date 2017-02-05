@@ -1,6 +1,7 @@
 html {
-  overflow-y: scroll;
+  overflow-y: auto;
 }
+
 /**
  * Reset some basic elements
  */
@@ -10,7 +11,6 @@ dl, dd, ol, ul, figure {
   margin: 0;
   padding: 0;
 }
-
 
 
 /**

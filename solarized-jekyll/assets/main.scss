@@ -3,11 +3,6 @@
 ---
 @charset "utf-8";
 
-/*
- * Set "light" or nothing x) if you love Solarized light version
-*/
-$theme: dark;
-
 // Solarized color reference
 
 $base03:    #002b36; // background color on dark theme
@@ -36,21 +31,12 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       $base00;
-$background-color: $base3;
-$code-background:  $base3;
-$code-def-color:   $base00;
+$text-color:       $base0;
+$background-color: $base03;
+$code-background:  $base03;
+$code-def-color:   $base0;
 $brand-color:      $green;
-$pre-border-color: $base2;
-
-@if $theme == dark {
-    $text-color:       $base0;
-    $background-color: $base03;
-    $code-background:  $base03;
-    $code-def-color:   $base0;
-    $brand-color:      $green;
-    $pre-border-color: $base02;
-}
+$pre-border-color: $base02;
 
 $grey-color:       $base01;
 $grey-color-light: lighten($grey-color, 40%);
@@ -68,9 +54,10 @@ $on-laptop:        800px;
   }
 }
 
-// Import partials from minima theme.
+// Import partials.
 @import
-  "minima/base",
-  "minima/layout",
-  "minima/syntax-highlighting"
+  "base",
+  "layout",
+  "syntax-highlighting",
+  "syntax-highlighting-specific"
 ;
