@@ -308,7 +308,8 @@ pre {
       .post-content h2 {
         font-size: 20px; } }
   .post-content h3 {
-    font-size: 20px; }
+    font-size: 20px;
+    color: #d33682; }
     @media screen and (max-width: 800px) {
       .post-content h3 {
         font-size: 18px; } }
