@@ -16,6 +16,9 @@
   letter-spacing: 1px;
   margin-bottom: 0;
   display: inline-block;
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari */
+  transform: rotate(90deg);
 
   &,
   &:visited {
@@ -213,9 +216,8 @@
 
   h2 {
     font-size: 24px;
-    margin-top: 40px;
+    margin: 40px 0 15px 0;
     color: $yellow;
-    margin-bottom: 15px;
 
     @include media-query($on-laptop) {
       font-size: 20px;
@@ -224,6 +226,7 @@
 
   h3 {
     font-size: 20px;
+    margin: 15px 0;
     color: $magenta;
 
     @include media-query($on-laptop) {
@@ -233,7 +236,7 @@
 
   h4 {
     font-size: 18px;
-
+    color: $violet;
     @include media-query($on-laptop) {
       font-size: 16px;
     }

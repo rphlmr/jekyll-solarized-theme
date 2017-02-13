@@ -33,8 +33,8 @@ $spacing-unit:     30px;
 
 $text-color:       $base0;
 $background-color: $base03;
-$code-background:  $base03;
-$code-def-color:   $base0;
+$code-background:  $background-color;
+$code-def-color:   $text-color;
 $brand-color:      $green;
 $pre-border-color: $base02;
 

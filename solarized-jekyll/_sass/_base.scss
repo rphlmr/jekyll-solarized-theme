@@ -201,3 +201,14 @@ pre {
     fill: $grey-color;
   }
 }
+
+
+table{
+    border-collapse: collapse;
+}
+
+td, th{
+    border-bottom:1px solid;
+    padding: 10px;
+    text-align: left;
+}
