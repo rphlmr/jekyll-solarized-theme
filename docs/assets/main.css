@@ -167,12 +167,7 @@ td, th {
   line-height: 56px;
   letter-spacing: 1px;
   margin-bottom: 0;
-  display: inline-block;
-  -ms-transform: rotate(90deg);
-  /* IE 9 */
-  -webkit-transform: rotate(90deg);
-  /* Safari */
-  transform: rotate(90deg); }
+  display: inline-block; }
   .site-title, .site-title:visited {
     color: #cb4b16; }
 
